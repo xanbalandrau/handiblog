@@ -340,6 +340,9 @@ footer a{
 
 @media (max-width:500px){
     /* navbar */
+    .offcanvas{
+        --bs-offcanvas-width : 300px !important;
+    }
     h1{
         font-size: 17px !important;
     }
