@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Témoignages</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/css/fonts.min.css">
+</head>
+<body>
+    <header>
+            <!-- Début navbar burger (bootstrap) -->
+            <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                    <img class="logo" src="../assets/img/logo.svg" alt="logo du site">
+                    <h1>Sensibilisation au Handicap</h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active"  href="../index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="./typeshandi.html">Types de handicap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./temoignage.html">Temoignages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./ressources.html">Ressources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./apropos.html">A propos</a>
+                        </li>                        
+                      </ul>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+            <!-- Fin navbar burger -->
+        <h2 class="titre-page">Témoignages</h2>
+        <button id="dark-mode"><img src="../assets/img/icons8-night-mode-48.png" alt="dark mode"></button>
+        <script src="../assets/js/script.js"></script>
+    </header>
+    <!-- Fin du header -->
+
+    <!-- Début form de témoignage -->
+    <main>
+      <form action="" method="get">
+        <legend>Partager nous votre expérience :</legend>
+        <fieldset>
+
+            <label for="name">Votre Nom :</label>
+            <input type="text" id="name" name="name" required maxlength="40" placeholder="Votre Nom">
+
+            <label for="photo">Photo ou vidéo (optionnel):</label>
+            <input type="file" id="photo" name="photo">
+
+            <label for="message">Partager votre handicap :</label>
+            <textarea name="message" id="message" rows="8" required placeholder="Partagez ici votre expérience personnelle avec le handicap"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Partager">
+      </form>
+
+      <!-- barre de recherche -->
+      <form class="search" action="" method="get">
+        <input type="search" name="search" placeholder="Rechercher...">
+        <button type="submit">Rechercher un handicap</button>
+      </form>
+
+      <!-- carte témoignage -->
+       <section class="container-carte">
+        <div class="carte">
+          <img src="../assets/img/DALL·E 2024-10-27 16.51.36 - A heartfelt image of a couple outdoors, one person using a wheelchair. They are holding hands and smiling warmly at each other, radiating love and sup.webp" alt="couple heureux avec une des 2 atteinte d'un handicap">
+          <div class="p-carte">
+            <h4>Julien</h4>
+            <p>Je suis né avec une maladie génétique qui a affecté ma mobilité. J'utilise un fauteuil roulant depuis mes 20 ans. Au début, j'avais peur que cela complique ma vie amoureuse. Quand j'ai rencontré Marie, j'étais nerveux. Mais elle ne m'a jamais regardé comme une personne handicapée. Pour elle, j'étais simplement Julien. Parfois, les gens sont surpris de nous voir ensemble. Ils ne comprennent pas toujours que l'amour ne se limite pas à l'apparence ou aux capacités physiques. Il y a eu des moments difficiles, comme des rendez-vous où les lieux n'étaient pas accessibles, et cela peut être frustrant. Mais Marie a toujours trouvé des solutions. Elle est très attentive à mes besoins. Nous avons aussi beaucoup de joie ensemble. Nous adorons voyager et découvrir de nouveaux endroits. Même si cela demande parfois plus de planification, nous avons créé des souvenirs incroyables. L'important, c'est de profiter de chaque moment. En fin de compte, notre relation est une belle aventure. Le handicap peut être un défi, mais cela ne définit pas qui nous sommes. Je suis simplement Julien, et je vis une belle histoire d'amour. </p>
+          </div>
+        </div>
+
+        <div class="carte">
+          <img src="../assets/img/ai-generated-8892382_640.jpg" alt="Personne atteinte d'une trisomie 21">
+          <div class="p-carte">
+            <h4>Thomas</h4>
+            <p>Bonjour, je m'appelle Thomas, j'ai 28 ans et je suis trisomique. Je veux partager mon histoire pour montrer que, malgré les défis, on peut réussir et être heureux dans sa vie et dans son travail. <br>Depuis tout petit, mes parents m'ont toujours encouragé à croire en moi et à ne pas laisser ma trisomie définir mes limites. J'ai eu la chance de grandir dans un environnement aimant, où l’on m’a appris à travailler dur et à me battre pour mes rêves. <br>Après avoir terminé mes études, j'ai commencé à travailler dans une petite boulangerie-pâtisserie. Au début, j'avais un peu peur de ne pas être à la hauteur. Mais mon patron, qui est très bienveillant, m'a donné une chance. Il a vu mon potentiel et m’a appris à préparer différents types de pains et de pâtisseries. <br>Aujourd'hui, je suis fier de dire que je suis devenu le responsable de la production. J’adore ce que je fais. Chaque matin, je me lève avec le sourire, prêt à faire du pain et à voir les clients. J’ai même commencé à créer mes propres recettes, et certains clients les adorent ! C’est un bonheur de voir le sourire des gens quand ils goûtent quelque chose que j'ai fait. <br>Ma réussite ne se limite pas à mon travail. J'ai aussi un groupe d'amis formidables qui me soutiennent. Nous faisons des sorties ensemble, nous allons au cinéma, et nous aimons partager nos passions. J'ai appris à m'affirmer et à exprimer mes opinions, ce qui m'a beaucoup aidé dans ma vie sociale. <br>Je veux dire à ceux qui peuvent se sentir découragés ou qui pensent que leur trisomie les empêche de réaliser leurs rêves : croyez en vous ! Avec du travail, de la détermination et du soutien, tout est possible. Ne laissez jamais personne vous dire que vous ne pouvez pas faire quelque chose. Chaque jour est une nouvelle opportunité d’apprendre et de grandir. Je suis reconnaissant pour ma vie et pour les opportunités qui m'ont été offertes. J'espère que mon histoire inspirera d'autres personnes à poursuivre leurs rêves et à ne pas avoir peur de montrer qui elles sont. Merci de m'avoir écouté.</p>
+          </div>
+        </div>
+
+        <div class="carte">
+          <img src="../assets/img/girl-1867092_640.jpg" alt="Jeune femme sourde">
+          <div class="p-carte">
+            <h4>Clara</h4>
+            <p>Bonjour, je m'appelle Clara, j'ai 24 ans et je suis sourde depuis ma naissance. Je voudrais partager mon histoire pour montrer que même face à des défis, il est possible de s'épanouir et de réaliser ses rêves. <br>En grandissant, j'ai souvent ressenti des difficultés à m'intégrer. À l'école, je n'entendais pas les professeurs et je devais toujours demander des explications supplémentaires. Mes camarades ne comprenaient pas toujours ma situation, et cela me faisait parfois sentir isolée. Mais grâce à mes parents, qui ont toujours cru en moi, j'ai appris à me battre pour mes droits et à exprimer mes besoins. Ils m'ont encouragée à utiliser la langue des signes et à participer à des activités en dehors de l'école pour rencontrer d'autres personnes sourdes. <br>Après le lycée, j'ai décidé de poursuivre des études en communication visuelle, un domaine qui me passionne. Au début, j'avais des doutes sur ma capacité à réussir, mais je me suis accrochée. Mes professeurs étaient très compréhensifs et m'ont aidée à m'adapter. J'ai également noué des amitiés solides avec des étudiants qui partageaient mes passions. <br> Aujourd'hui, je suis fière de dire que je travaille en tant que designer graphique dans une entreprise créative. J’adore ce que je fais et je me sens épanouie. Mon handicap ne m’a jamais empêchée d’être qui je suis et de réussir dans ma carrière. J'ai appris à utiliser ma différence comme une force. Je suis également impliquée dans des associations qui soutiennent les personnes sourdes, afin de sensibiliser le public à notre réalité et de promouvoir l'accessibilité. <br>À ceux qui traversent des moments difficiles, je voudrais dire : n’abandonnez jamais vos rêves. Votre voix, même si elle n'est pas entendue, mérite d'être entendue. Avec de la détermination, du soutien et l'amour de vos proches, vous pouvez surmonter n'importe quel obstacle. Chaque jour est une occasion de briller et de montrer au monde ce dont vous êtes capable. <br> Merci de m'avoir écoutée. </p>
+          </div>
+        </div>
+       </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sensibilisation au Handicap. Tous droits réservés.</p>
+        <nav class="footer">
+            <a href="./apropos.html">A propos</a>
+            <a href="https://workspace.google.com/intl/fr/gmail/"target="_blank"><img src="../assets/img/icons8-courrier-24.png" alt="e-mail"></a>
+            <a href="https://www.facebook.com/?locale=fr_FR"target="_blank"><img src="../assets/img/icons8-facebook-24.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"target="_blank"><img src="../assets/img/icons8-instagram-24.png" alt="instagram"></a>
+        </nav>
+    </footer>
+
+
+
+
+    <!-- script du burger menu -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
